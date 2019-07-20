@@ -1,0 +1,310 @@
+/*---------HEADER--------- */
+header {
+  width: 100%;
+  height: 15vw;
+  background-color: #FFF3F3;
+  margin-bottom: 0; }
+
+.logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.leftlogo img {
+  width: 20vw;
+  margin-left: 2vw; }
+
+.rightlogo img {
+  width: 55vw;
+  margin-right: 5vw; }
+
+/*---------NAV------- */
+nav {
+  width: 100%;
+  height: 3vw;
+  background: #8E1616; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li {
+  float: left; }
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  font-size: 25pt;
+  padding: 2vw; }
+
+/*-------MAIN------ */
+main {
+  width: 100%;
+  height: 60vw;
+  margin: 0;
+  padding: 0; }
+
+input {
+  width: 20vw;
+  height: 3vw;
+  border: 3px solid black;
+  border-radius: 3px; }
+
+select {
+  width: 20.5vw;
+  height: 3vw;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black; }
+
+.hero-image img {
+  background-image: url(img/traffic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+.hero-text {
+  float: left;
+  position: absolute;
+  top: 20vw;
+  left: 3vw;
+  color: white;
+  font-size: 20pt; }
+
+.box {
+  border: solid grey;
+  opacity: 0.8;
+  position: absolute;
+  top: 30vw;
+  left: 7vw;
+  width: 86vw;
+  height: 58vw;
+  background: white; }
+  .box .box-text {
+    margin-left: 22vw;
+    width: 50%;
+    word-wrap: break-word;
+    font-size: 45pt;
+    text-align: center; }
+  .box .personal {
+    margin-left: 20vw;
+    width: 60%;
+    height: 40%; }
+    .box .personal .box-input-top {
+      width: 100%;
+      height: 6vw; }
+      .box .personal .box-input-top .top-text {
+        height: 3.2vw;
+        color: black;
+        font-weight: bold;
+        font-size: 15pt;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+      .box .personal .box-input-top .top-info {
+        height: 3vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+    .box .personal .box-input-bottom {
+      width: 100%;
+      height: 10vw; }
+      .box .personal .box-input-bottom .bottom-text {
+        position: relative;
+        bottom: 10vw;
+        height: 2vw;
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        font-size: 15pt;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+      .box .personal .box-input-bottom .bottom-info {
+        position: relative;
+        bottom: 9vw;
+        height: 3vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+  .box .calc {
+    position: relative;
+    right: 2vw;
+    bottom: 8vw;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .box .result {
+    color: #5EA15A;
+    font-style: bold;
+    font-size: 15pt;
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+/*-------BAR------- */
+.bar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20vw;
+  background-color: #CECECE; }
+
+.barbig {
+  position: relative;
+  top: 7vw;
+  font-size: 30pt;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.barsmall {
+  position: relative;
+  top: 4vw;
+  left: 23vw;
+  font-size: 20pt;
+  font-weight: bold;
+  color: black;
+  width: 52%;
+  height: 10vw;
+  text-align: center;
+  word-wrap: break-word; }
+
+/*----------INFO BOXES------ */
+article {
+  width: 100%;
+  height: 30vw; }
+  article .boxen {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    article .boxen .box-links {
+      box-shadow: 1px 1px 12px 0px #6b6b6b;
+      border-top: 2px solid black;
+      margin-top: 10vw;
+      margin-left: 8vw;
+      width: 28vw;
+      height: 22vw; }
+      article .boxen .box-links .headline {
+        width: 100%;
+        height: 2vw;
+        font-size: 20pt;
+        margin-left: 2vw; }
+      article .boxen .box-links .sub {
+        position: relative;
+        bottom: 2vw;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        margin-left: 2vw; }
+      article .boxen .box-links .listbox {
+        position: relative;
+        bottom: 2vw;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        margin-left: 2vw; }
+      article .boxen .box-links .benefits {
+        color: black;
+        position: relative;
+        top: 2vw;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        font-style: bold;
+        margin-left: 2vw; }
+      article .boxen .box-links .guarantee {
+        color: black;
+        position: relative;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        font-style: bold;
+        margin-left: 2vw; }
+    article .boxen .box-rechts {
+      box-shadow: 1px 1px 12px 0px #6b6b6b;
+      border-top: 2px solid black;
+      margin-top: 10vw;
+      margin-right: 8vw;
+      width: 28vw;
+      height: 22vw; }
+      article .boxen .box-rechts .headline {
+        width: 100%;
+        height: 2vw;
+        font-size: 20pt;
+        margin-left: 2vw; }
+      article .boxen .box-rechts .sub {
+        position: relative;
+        bottom: 2vw;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        margin-left: 2vw; }
+      article .boxen .box-rechts .listbox {
+        position: relative;
+        bottom: 2vw;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        margin-left: 2vw; }
+      article .boxen .box-rechts .benefits {
+        color: black;
+        position: relative;
+        top: 2vw;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        font-style: bold;
+        margin-left: 2vw; }
+      article .boxen .box-rechts .guarantee {
+        color: black;
+        position: relative;
+        width: 100%;
+        height: 2vw;
+        font-size: 15pt;
+        font-style: bold;
+        margin-left: 2vw; }
+
+/*--------FOOTER------ */
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 15vw;
+  background-color: #171717;
+  overflow: hidden; }
+
+.bottom-text {
+  color: white;
+  font-style: bold;
+  font-size: 15pt;
+  margin-top: 10vw;
+  text-align: center; }
+
+.foot-logo img {
+  width: 20vw;
+  margin-top: 2.5vw;
+  margin-right: 2.5vw;
+  display: flex;
+  align-content: center;
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
